@@ -1,6 +1,6 @@
 # 💰 Expense Tracker MCP Server
 
-A lightweight Expense Tracking MCP (Model Context Protocol) Server built using Python and SQLite. This project allows seamless expense management and integrates with AI assistants like Claude.
+A lightweight Expense Tracking MCP (Model Context Protocol) Server built using Python and SQLite. This project is fully integrated with Claude, enabling natural language-based expense management.
 
 ---
 
@@ -12,7 +12,7 @@ A lightweight Expense Tracking MCP (Model Context Protocol) Server built using P
 - Edit existing expenses  
 - Delete expenses  
 - Load categories from JSON  
-- MCP-compatible (Claude / AI agents)
+- MCP-compatible with Claude  
 
 ---
 
@@ -21,6 +21,7 @@ A lightweight Expense Tracking MCP (Model Context Protocol) Server built using P
 - Python  
 - SQLite  
 - FastMCP  
+- Claude (MCP Integration)
 
 ---
 
@@ -42,6 +43,19 @@ cd expense-tracker-mcp
 pip install fastmcp
 python main.py
 ```
+
+---
+
+## 🤖 Claude Integration
+
+This project is integrated with Claude using MCP (Model Context Protocol), allowing you to interact with your expense tracker using natural language.
+
+### What you can do inside Claude:
+- "Add ₹500 for food today"
+- "Show my expenses for last week"
+- "Summarize my spending by category"
+
+Claude automatically calls the MCP tools and returns structured responses.
 
 ---
 
@@ -74,10 +88,10 @@ CREATE TABLE expenses (
 
 ---
 
-## 🤖 Use Cases
+## 🔮 Future Improvements
 
-- Add expenses via AI  
-- Track spending  
-- Get summaries  
+- Budget tracking  
+- Dashboard & analytics  
+- Multi-user support  
 
 ---
